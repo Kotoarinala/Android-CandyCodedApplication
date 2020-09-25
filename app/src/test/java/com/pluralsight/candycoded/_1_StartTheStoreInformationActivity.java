@@ -9,6 +9,7 @@ import org.junit.BeforeClass;
 import org.junit.FixMethodOrder;
 import org.junit.Test;
 import org.junit.runner.RunWith;
+import org.junit.runner.notification.RunNotifier;
 import org.junit.runners.MethodSorters;
 import org.mockito.Mockito;
 import org.powermock.api.mockito.PowerMockito;
@@ -127,4 +128,7 @@ public class _1_StartTheStoreInformationActivity {
         assertEquals("onOptionsItemSelected() method doesn't exist in MainActivity class.",
                 myClass, MainActivity.class);
     }
+
+
 }
+
