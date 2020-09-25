@@ -1,13 +1,17 @@
 package com.pluralsight.candycoded;
 
 import android.content.Intent;
+import android.content.pm.PackageManager;
 import android.net.Uri;
 import android.os.Bundle;
+import android.support.v4.content.ContextCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.ImageView;
 
 import com.squareup.picasso.Picasso;
+
+import static android.Manifest.permission.CALL_PHONE;
 
 public class InfoActivity extends AppCompatActivity {
 
@@ -40,4 +44,14 @@ public class InfoActivity extends AppCompatActivity {
     // ***
     // TODO - Task 3 - Launch the Phone Activity
     // ***
+
+    public void createPhoneIntent(View view){
+        Intent phoneIntent = new Intent(Intent.ACTION_CALL);
+        phoneIntent.setData(Uri.parse("tel:0123456789"));
+        if (ContextCompat.checkSelfPermission(getApplicationContext(), CALL_PHONE) == PackageManager.PERMISSION_GRANTED) {
+            startActivity(phoneIntent);
+        } else {
+            requestPermissions(new String[]{CALL_PHONE}, 1);
+        }
+    }
 }

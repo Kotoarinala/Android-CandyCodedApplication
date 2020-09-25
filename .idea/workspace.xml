@@ -6,12 +6,13 @@
     </shared>
   </component>
   <component name="AndroidLogFilters">
-    <option name="TOOL_WINDOW_LOG_LEVEL" value="debug" />
+    <option name="TOOL_WINDOW_LOG_LEVEL" value="error" />
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0b7633b6-91c2-4d9c-80c2-5897a3f35d39" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/pluralsight/candycoded/InfoActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/pluralsight/candycoded/InfoActivity.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_info.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_info.xml" afterDir="false" />
     </list>
@@ -49,10 +50,6 @@
         <option value="$PROJECT_DIR$/.idea/codeStyles/Project.xml" />
       </list>
     </option>
-  </component>
-  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
-    <option name="width" value="1280" />
-    <option name="height" value="800" />
   </component>
   <component name="ProjectId" id="1hyAz9ktomauSnFQvOF01XbzgKX" />
   <component name="ProjectViewState">
@@ -213,22 +210,22 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="117" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1600974613963" />
-    <state width="1306" height="156" key="GridCell.Tab.0.bottom" timestamp="1600978365379">
+    <state width="1306" height="15" key="GridCell.Tab.0.bottom" timestamp="1601052747649">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1306" height="156" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1600978365379" />
-    <state width="1306" height="156" key="GridCell.Tab.0.center" timestamp="1600978365379">
+    <state width="1306" height="15" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1601052747649" />
+    <state width="1306" height="15" key="GridCell.Tab.0.center" timestamp="1601052747649">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1306" height="156" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1600978365379" />
-    <state width="1306" height="156" key="GridCell.Tab.0.left" timestamp="1600978365379">
+    <state width="1306" height="15" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1601052747649" />
+    <state width="1306" height="15" key="GridCell.Tab.0.left" timestamp="1601052747648">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1306" height="156" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1600978365379" />
-    <state width="1306" height="156" key="GridCell.Tab.0.right" timestamp="1600978365379">
+    <state width="1306" height="15" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1601052747648" />
+    <state width="1306" height="15" key="GridCell.Tab.0.right" timestamp="1601052747649">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1306" height="156" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1600978365379" />
+    <state width="1306" height="15" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1601052747649" />
     <state x="184" y="0" key="SettingsEditor" timestamp="1600974384198">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -237,10 +234,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="380" y="97" width="606" height="534" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1600978141950" />
-    <state width="423" height="144" key="javadoc.popup.new" timestamp="1600978018516">
+    <state width="423" height="144" key="javadoc.popup.new" timestamp="1601052273927">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="423" height="144" key="javadoc.popup.new/0.0.1366.728@0.0.1366.728" timestamp="1600978018516" />
+    <state width="423" height="144" key="javadoc.popup.new/0.0.1366.728@0.0.1366.728" timestamp="1601052273927" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Android_CandyCodedApplication$com_pluralsight_candycoded_in_app.ic" NAME="com.pluralsight.candycoded in app Coverage Results" MODIFIED="1600975947574" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
