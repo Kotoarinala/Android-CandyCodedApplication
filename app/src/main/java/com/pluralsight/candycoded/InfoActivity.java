@@ -48,10 +48,6 @@ public class InfoActivity extends AppCompatActivity {
     public void createPhoneIntent(View view){
         Intent phoneIntent = new Intent(Intent.ACTION_CALL);
         phoneIntent.setData(Uri.parse("tel:0123456789"));
-        if (ContextCompat.checkSelfPermission(getApplicationContext(), CALL_PHONE) == PackageManager.PERMISSION_GRANTED) {
-            startActivity(phoneIntent);
-        } else {
-            requestPermissions(new String[]{CALL_PHONE}, 1);
-        }
+        startActivity(phoneIntent);
     }
 }
